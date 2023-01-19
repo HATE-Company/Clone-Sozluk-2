@@ -3,7 +3,9 @@ import { Styled } from './User.styled'
 
 const User = () => {
   return (
-    <Styled>User</Styled>
+    <Styled>
+      User
+    </Styled>
   )
 }
 

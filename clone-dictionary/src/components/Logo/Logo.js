@@ -3,7 +3,9 @@ import { Styled } from './Logo.styled'
 
 const Logo = () => {
   return (
-    <Styled>Logo</Styled>
+    <Styled>
+
+    </Styled>
   )
 }
 

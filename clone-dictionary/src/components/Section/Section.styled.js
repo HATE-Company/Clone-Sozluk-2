@@ -4,5 +4,6 @@ export const Styled = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 700px;
+    flex-grow: 8;
+    border: 1px solid gray;
 `

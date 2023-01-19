@@ -1,9 +1,12 @@
 import React from 'react'
+import NavbarItem from '../NavbarItem'
 import { Styled } from './Navbar.styled'
 
 const Navbar = () => {
   return (
-    <Styled>Navbar</Styled>
+    <Styled>
+      <NavbarItem />
+    </Styled>
   )
 }
 

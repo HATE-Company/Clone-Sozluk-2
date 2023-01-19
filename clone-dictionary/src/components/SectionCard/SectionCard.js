@@ -1,8 +1,9 @@
 import React from 'react'
+import { Styled } from './SectionCard.styled'
 
 const SectionCard = () => {
   return (
-    <div>SectionCard</div>
+    <Styled>SectionCard</Styled>
   )
 }
 

@@ -4,6 +4,7 @@ export const Styled = styled.div`
     display: flex;
     padding: 10px;
     border: 1px solid red;
-    width: 100%;
+    min-width: 16rem;
     justify-content: center;
+    flex-grow: 1;
 `

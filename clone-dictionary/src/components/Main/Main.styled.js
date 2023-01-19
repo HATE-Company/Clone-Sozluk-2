@@ -7,4 +7,5 @@ export const Styled = styled.div`
     margin: 2rem 0;
     border: 1px solid aqua;
     padding: 1rem;
+    gap: 1rem;
 `

@@ -2,9 +2,11 @@ import styled from "styled-components";
 
 export const Styled = styled.div`
     display: flex;
-    padding: 10px;
-    border: 1px solid red;
+    flex-direction: row;
+    justify-content: flex-start !important;
     min-width: 16rem;
-    justify-content: end;
-    flex-grow: 1;
+
+    .asides {
+        min-width: 16rem;
+    }
 `

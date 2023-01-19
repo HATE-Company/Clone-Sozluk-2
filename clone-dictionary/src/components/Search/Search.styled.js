@@ -5,6 +5,7 @@ export const Styled = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    flex-grow: 8;
 
     .search-form {
         width: 700px;
