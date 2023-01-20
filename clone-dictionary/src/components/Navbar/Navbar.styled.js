@@ -14,12 +14,9 @@ export const Styled = styled.div`
     height: 400px;
     overflow-y: auto;
     box-sizing: border-box;
-
     border-radius: 1rem;
-
-
+    overflow-x: hidden;
     ::-webkit-scrollbar-track {
-        box-shadow: inset 0 0 6px rgba(0,0,0,0.3);;
 	    border-radius: 1rem;
 	    background-color: none;
     }
@@ -29,9 +26,6 @@ export const Styled = styled.div`
     }
     ::-webkit-scrollbar-thumb {
         border-radius: 1rem;
-	    box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-
-        background: rgba(187, 187, 187, 0.39);
         border-radius: 20px;
     }
 

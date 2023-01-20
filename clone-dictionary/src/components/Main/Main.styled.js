@@ -5,7 +5,5 @@ export const Styled = styled.div`
     width: 100%;
     justify-content: space-between;
     margin: 1rem 0;
-    border: 1px solid aqua;
     padding: 1rem;
-    gap: 1rem;
 `

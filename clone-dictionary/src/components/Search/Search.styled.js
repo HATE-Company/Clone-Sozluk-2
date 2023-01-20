@@ -8,7 +8,7 @@ export const Styled = styled.div`
     flex-grow: 8;
 
     .search-form {
-        width: 700px;
+        width: 35rem;
     }
 
    #default-search {
